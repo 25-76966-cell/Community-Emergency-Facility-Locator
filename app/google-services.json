@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "522013699312",
+    "project_id": "emergency-facility-locator",
+    "storage_bucket": "emergency-facility-locator.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522013699312:android:c881c20d75d1ddcd5ce635",
+        "android_client_info": {
+          "package_name": "com.example.communityemergencyfacilitylocator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi5_1QyWkMPOJ8bMsgD2Q8hzCf1Z_R2uI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
