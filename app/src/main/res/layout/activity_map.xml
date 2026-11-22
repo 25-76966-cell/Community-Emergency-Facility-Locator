@@ -1,11 +1,25 @@
-<FrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/blush_background">
 
     <org.maplibre.android.maps.MapView
         android:id="@+id/mapView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_margin="16dp"
+        android:background="@drawable/bg_card"
+        android:elevation="5dp"
+        android:paddingHorizontal="18dp"
+        android:paddingVertical="15dp"
+        android:text="Finding help nearby"
+        android:textColor="@color/soft_ink"
+        android:textSize="17sp"
+        android:textStyle="bold" />
 </FrameLayout>

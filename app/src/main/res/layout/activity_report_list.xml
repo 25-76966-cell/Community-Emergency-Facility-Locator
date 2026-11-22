@@ -1,26 +1,65 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:background="@color/blush_background"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Community response"
+        android:textColor="@color/soft_ink"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="16dp"
+        android:text="Review reports and update their progress."
+        android:textColor="@color/muted_mauve"
+        android:textSize="14sp" />
 
     <TextView
         android:id="@+id/reportsText"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Loading Reports..." />
+        android:background="@drawable/bg_card"
+        android:elevation="2dp"
+        android:gravity="top"
+        android:padding="18dp"
+        android:text="Loading Reports..."
+        android:textColor="@color/soft_ink"
+        android:textSize="15sp" />
 
-    <Button
-        android:id="@+id/comingBtn"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ON THE WAY"/>
+        android:layout_marginTop="14dp"
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/doneBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="DONE"/>
+        <Button
+            android:id="@+id/comingBtn"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="6dp"
+            android:text="On the way"
+            android:textSize="13sp" />
 
+        <Button
+            android:id="@+id/doneBtn"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:layout_marginStart="6dp"
+            android:background="@drawable/bg_button_secondary"
+            android:backgroundTint="@null"
+            android:text="Done"
+            android:textColor="@color/pink_primary_dark" />
+    </LinearLayout>
 </LinearLayout>
